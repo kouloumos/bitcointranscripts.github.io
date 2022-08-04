@@ -1,3 +1,4 @@
 [submodule "content"]
 	path = content
-	url = git@github.com:bitcointranscripts/bitcointranscripts.git
+	url = https://github.com/kouloumos/bitcointranscripts.git
+	branch = testing
