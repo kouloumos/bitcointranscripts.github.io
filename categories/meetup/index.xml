@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>meetup on ₿itcoin Transcripts</title><link>https://btctranscripts.com/categories/meetup/</link><description>Recent content in meetup on ₿itcoin Transcripts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://btctranscripts.com/categories/meetup/index.xml" rel="self" type="application/rss+xml"/><item><title>Adam Gibson - Unfairly Linear Signatures (2018-06-12)</title><link>https://btctranscripts.com/london-bitcoin-devs/2018-06-12-adam-gibson-unfairly-linear-signatures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/london-bitcoin-devs/2018-06-12-adam-gibson-unfairly-linear-signatures/</guid><description>Name: Adam Gibson
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>meetup on ₿itcoin Transcripts</title><link>https://btctranscripts.com/categories/meetup/</link><description>Recent content in meetup on ₿itcoin Transcripts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://btctranscripts.com/categories/meetup/index.xml" rel="self" type="application/rss+xml"/><item><title>Stepan Snigirev - Hardware wallet attacks (2019-05-01)</title><link>https://btctranscripts.com/london-bitcoin-devs/2019-05-01-stepan-snigirev-hardware-wallet-attacks/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/london-bitcoin-devs/2019-05-01-stepan-snigirev-hardware-wallet-attacks/</guid><description>Name: Stepan Snigirev
+Topic: Hardware Wallets (History of attacks)
+Location: London Bitcoin Devs
+Date: May 1st 2019
+Video: https://www.youtube.com/watch?v=P5PI5MZ_2yo
+Slides: https://www.dropbox.com/s/64s3mtmt3efijxo/Stepan%20Snigirev%20on%20hardware%20wallet%20attacks.pdf
+Pieter Wuille on anti covert channel signing techniques: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2020-March/017667.html
+Introduction This talk is the second in the series after my previous talk in London a few months ago at the Advancing Bitcoin conference. There I was talking mostly about general attacks on hardware, more from the theoretical perspective. I didn’t say anything bad hardware wallets that exist and I didn’t specify anything on the bad side.</description></item><item><title>Andrew Poelstra - Threshold Signatures And Accountability (2019-02-04)</title><link>https://btctranscripts.com/sf-bitcoin-meetup/2019-02-04-threshold-signatures-and-accountability/</link><pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/sf-bitcoin-meetup/2019-02-04-threshold-signatures-and-accountability/</guid><description>Name: Andrew Poelstra
+Topic: Threshold Signatures and Accountability
+Location: SF Bitcoin Devs
+Date: February 4th 2019
+Video: https://www.youtube.com/watch?v=j9Wvz7zI_Ac
+Slides: https://download.wpsoftware.net/bitcoin/wizardry/2019-02-sfdevs-threshold/slides.pdf
+Transcript completed by: Bryan Bishop Edited by: Michael Folkson
+Twitter announcement: https://twitter.com/kanzure/status/1092665108960968704
+Introduction (Mark Erhardt) Sorry for the delays. We&amp;rsquo;re finally ready to talk. Welcome to our talk. We&amp;rsquo;d like to thank our sponsors including Blockstream and Digital Garage. Today we have Andrew Poelstra to talk about threshold signatures and accountability.</description></item><item><title>Sjors Provoost - Bitcoin Core and hardware wallets (2018-09-19)</title><link>https://btctranscripts.com/london-bitcoin-devs/2018-09-19-sjors-provoost-core-hardware-wallet/</link><pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/london-bitcoin-devs/2018-09-19-sjors-provoost-core-hardware-wallet/</guid><description>Name: Sjors Provoost
+Topic: Using Bitcoin Core with hardware wallets
+Location: London Bitcoin Devs
+Date: September 19th 2018
+Video: https://www.youtube.com/watch?v=SUDkYbkcTsQ
+Slides: https://github.com/Sjors/presentations/blob/master/2018-09-19%20London%20Bitcoin%20Devs/2018-09%20London%20Bitcoin%20Devs%200.5.pdf
+Core, HWI docs: https://hwi.readthedocs.io/en/latest/examples/bitcoin-core-usage.html
+Introduction I am Sjors, I am going to show you how to use, you probably shouldn’t try this at home, the Bitcoin Core wallet directly with a hardware wallet. Most of that work is done by Andrew Chow. I’m just showing how it works. I will have some thoughts of my own on how that could be made more user friendly.</description></item><item><title>Adam Gibson - Unfairly Linear Signatures (2018-06-12)</title><link>https://btctranscripts.com/london-bitcoin-devs/2018-06-12-adam-gibson-unfairly-linear-signatures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/london-bitcoin-devs/2018-06-12-adam-gibson-unfairly-linear-signatures/</guid><description>Name: Adam Gibson
 Topic: Unfairly Linear Signatures
 Location: London Bitcoin Devs
 Date: June 12th 2018
@@ -555,11 +577,7 @@ https://twitter.com/kanzure/status/1021880538020368385
 video: https://www.youtube.com/watch?v=YSUVRj8iznU
 slides: https://prezi.com/view/YkJwE7LYJzAzJw9g1bWV/
 Introduction I am Pieter Wuille. I will just dive in. Today I want to talk about improvements to the bitcoin scripting language. There is feedback in the microphone. Okay.
-I will mostly be talking about improvements to the bitcoin scripting language. This is by no means an exhaustive list of all the things that are going on.</description></item><item><title>Threshold Signatures And Accountability (2019-02-04)</title><link>https://btctranscripts.com/sf-bitcoin-meetup/2019-02-04-threshold-signatures-and-accountability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/sf-bitcoin-meetup/2019-02-04-threshold-signatures-and-accountability/</guid><description>Threshold signatures and accountability
-Andrew Poelstra
-https://twitter.com/kanzure/status/1092665108960968704
-Sorry for the delays. We&amp;rsquo;re finally ready to talk. Welcome to our talk. We&amp;rsquo;d like to thank our sponsors including Blockstream and Digital Garage. Today we have Andrew Poelstra to talk about threshold signatures and accountability. He is known for working on mimblewimble, Bitcoin Core, libsecp256k1, and at Blockstream. Thank you.
-Introduction Cool, thank you Mark for that introduction. Sorry about the delays. Let&amp;rsquo;s get started.</description></item><item><title>Tim Ruffing - Schnorr, Multisig (2020-06-17)</title><link>https://btctranscripts.com/london-bitcoin-devs/2020-06-17-tim-ruffing-schnorr-multisig/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/london-bitcoin-devs/2020-06-17-tim-ruffing-schnorr-multisig/</guid><description>Name: Tim Ruffing
+I will mostly be talking about improvements to the bitcoin scripting language. This is by no means an exhaustive list of all the things that are going on.</description></item><item><title>Tim Ruffing - Schnorr, Multisig (2020-06-17)</title><link>https://btctranscripts.com/london-bitcoin-devs/2020-06-17-tim-ruffing-schnorr-multisig/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/london-bitcoin-devs/2020-06-17-tim-ruffing-schnorr-multisig/</guid><description>Name: Tim Ruffing
 Topic: Taproot and Schnorr Multisignatures
 Location: London Bitcoin Devs (online)
 Date: June 17th 2020
