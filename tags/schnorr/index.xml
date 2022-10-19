@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>schnorr on ₿itcoin Transcripts</title><link>https://btctranscripts.com/tags/schnorr/</link><description>Recent content in schnorr on ₿itcoin Transcripts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://btctranscripts.com/tags/schnorr/index.xml" rel="self" type="application/rss+xml"/><item><title>Chelsea Komlo, Elizabeth Crites - FROST (2022-08-07)</title><link>https://btctranscripts.com/misc/2022-08-07-komlo-crites-frost/</link><pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/misc/2022-08-07-komlo-crites-frost/</guid><description>Name: Chelsea Komlo, Elizabeth Crites
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>schnorr on ₿itcoin Transcripts</title><link>https://btctranscripts.com/tags/schnorr/</link><description>Recent content in schnorr on ₿itcoin Transcripts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://btctranscripts.com/tags/schnorr/index.xml" rel="self" type="application/rss+xml"/><item><title>ROAST - Robust asynchronous Schnorr threshold signatures (2022-10-14)</title><link>https://btctranscripts.com/tabconf/2022/2022-10-14-roast/</link><pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/tabconf/2022/2022-10-14-roast/</guid><description>paper: https://ia.cr/2022/550
+slides: https://slides.com/real-or-random/roast-tabconf22/
+Hey. Hello. My name is Tim and I work at Blockstream. This is some academic work in joint with some of my coworkers.
+Schnorr signatures in Bitcoin We recently got support for Schnorr signatures in bitcoin, introduced as part of bip340 which was activated as part of the taproot soft-fork. There are three main reasons why we want Schnorr signatures and prefer them over ECDSA bitcoin signatures which can still be used: one is that Schnorr signatures have provable security and give the theory guys more confidence; Schnorr signatures are more efficient; and the main thing is that we can get easier constructions of advanced signing protocols.</description></item><item><title>Tim Ruffing - MuSig2 (2022-08-11)</title><link>https://btctranscripts.com/london-bitcoin-devs/2022-08-11-tim-ruffing-musig2/</link><pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/london-bitcoin-devs/2022-08-11-tim-ruffing-musig2/</guid><description>Name: Tim Ruffing
+Topic: MuSig2
+Location: London Bitcoin Devs
+Date: August 11th 2022
+Video: https://www.youtube.com/watch?v=TpyK_ayKlj0
+Reading list: https://gist.github.com/michaelfolkson/5bfffa71a93426b57d518b09ebd0998c
+Introduction Michael Folkson (MF): This is a Socratic Seminar, we are going to be discussing MuSig2 and we’ll move onto adjacent topics such as FROST and libsecp256k1 later. We have a few people on the call including Tim (Ruffing). If you want to do short intros, you don’t have to, for the people on the call.</description></item><item><title>Chelsea Komlo, Elizabeth Crites - FROST (2022-08-07)</title><link>https://btctranscripts.com/misc/2022-08-07-komlo-crites-frost/</link><pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/misc/2022-08-07-komlo-crites-frost/</guid><description>Name: Chelsea Komlo, Elizabeth Crites
 Topic: FROST
 Location: Zcon 3
 Date: August 7th 2022
@@ -6,7 +15,28 @@ Video: https://youtu.be/tWopcFzSTas?t=11604
 FROST paper: https://eprint.iacr.org/2020/852.pdf
 Sydney Socratic on FROST: https://btctranscripts.com/sydney-bitcoin-meetup/2022-03-29-socratic-seminar/
 Introduction Elizabeth Crites (EC): My name is Elizabeth Crites, I’m a postdoc at the University of Edinburgh.
-Chelsea Komlo (CK): I’m Chelsea Komlo, I’m at the University of Waterloo and I’m also a Principal Researcher at the Zcash Foundation. Today we will be giving you research updates on FROST.</description></item><item><title>Jonas Nick - MuSig2 (2021-08-16)</title><link>https://btctranscripts.com/iacr/2021-08-16-jonas-nick-musig2/</link><pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/iacr/2021-08-16-jonas-nick-musig2/</guid><description>Name: Jonas Nick
+Chelsea Komlo (CK): I’m Chelsea Komlo, I’m at the University of Waterloo and I’m also a Principal Researcher at the Zcash Foundation. Today we will be giving you research updates on FROST.</description></item><item><title>Tim Ruffing - ROAST (2022-07-14)</title><link>https://btctranscripts.com/misc/2022-07-14-tim-ruffing-roast/</link><pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/misc/2022-07-14-tim-ruffing-roast/</guid><description>Name: Tim Ruffing
+Topic: ROAST
+Location: Monash Cybersecurity Seminars
+Date: July 14th 2022
+Video: https://www.youtube.com/watch?v=FVW6Hgt_meg
+ROAST paper: https://eprint.iacr.org/2022/550.pdf
+ROAST blog post: https://medium.com/blockstream/roast-robust-asynchronous-schnorr-threshold-signatures-ddda55a07d1b
+ROAST in Python: https://github.com/robot-dreams/roast
+Introduction (Amin Sakzad) Welcome everyone to Monash Cybersecurity Seminars. Today we will be having Tim Ruffing. Tim is an applied cryptographer in the research team of Blockstream, a Bitcoin and blockchain technology company. He obtained his PhD from Saarland University researching cryptographic aspects of cryptocurrencies.</description></item><item><title>Jimmy Song - Taproot multisig (2022-03-03)</title><link>https://btctranscripts.com/advancing-bitcoin/2022/2022-03-03-jimmy-song-taproot-multisig/</link><pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/advancing-bitcoin/2022/2022-03-03-jimmy-song-taproot-multisig/</guid><description>Name: Jimmy Song
+Topic: Taproot multisig
+Location: Advancing Bitcoin
+Date: March 3rd 2022
+Video: https://www.youtube.com/watch?v=Uo3uzofPlX0
+Slides: https://jimmysong.github.io/taproot-multisig
+Pull request adding multisig Taproot support to buidl-python: https://github.com/buidl-bitcoin/buidl-python/pull/109
+Intro (Jeff Gallas) The next speaker is Jimmy Song who doesn’t really need an introduction but in any case, he has been, which is important for this conference, running the Programming Blockchain workshops for 5 years now. Leon is one of his alumni so there is a direct connection to this conference.</description></item><item><title>Stepan Snigirev - Taproot on hardware wallets (2022-03-03)</title><link>https://btctranscripts.com/advancing-bitcoin/2022/2022-03-03-stepan-snigirev-taproot-hardware-wallets/</link><pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/advancing-bitcoin/2022/2022-03-03-stepan-snigirev-taproot-hardware-wallets/</guid><description>Name: Stepan Snigirev
+Topic: Taproot on hardware wallets
+Location: Advancing Bitcoin
+Date: March 3rd 2022
+Video: https://www.youtube.com/watch?v=8uM-v1pSFgs
+Intro (Jeff Gallas) I’m very happy to announce our first speaker for today. It is Stepan Snigirev from Specter, he is the CTO of Specter Solutions and has been working on Bitcoin software and hardware wallets for 3 years now so welcome Stepan.
+Overview (Stepan Snigirev) What I want to talk about is Taproot on hardware wallets.</description></item><item><title>Jonas Nick - MuSig2 (2021-08-16)</title><link>https://btctranscripts.com/iacr/2021-08-16-jonas-nick-musig2/</link><pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/iacr/2021-08-16-jonas-nick-musig2/</guid><description>Name: Jonas Nick
 Topic: MuSig2: Simple Two-Round Schnorr Multi-Signatures
 Location: IACR Crypto
 Date: August 16th 2021
