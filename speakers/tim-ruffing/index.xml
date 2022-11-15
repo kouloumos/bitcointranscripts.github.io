@@ -30,7 +30,7 @@ MuSig2 paper: https://eprint.iacr.org/2020/1261.pdf
 MuSig2 blog post: https://medium.com/blockstream/musig2-simple-two-round-schnorr-multisignatures-bf9582e99295
 Transcript completed by: Stephan Livera Edited by: Michael Folkson
 Intro Stephan Livera (SL): Jonas and Tim, welcome to the show.
-Jonas Nick (JN): Hello.</description></item><item><title>Tim Ruffing - Schnorr, Multisig</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/london-bitcoin-devs/2020-06-17-tim-ruffing-schnorr-multisig/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/london-bitcoin-devs/2020-06-17-tim-ruffing-schnorr-multisig/</guid><description>Taproot and Schnorr Multisignatures Location: London Bitcoin Devs (online)
+Jonas Nick (JN): Hello.</description></item><item><title>Schnorr and Multisig</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/london-bitcoin-devs/2020-06-17-tim-ruffing-schnorr-multisig/</link><pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/london-bitcoin-devs/2020-06-17-tim-ruffing-schnorr-multisig/</guid><description>Taproot and Schnorr Multisignatures Location: London Bitcoin Devs (online)
 Video: https://www.youtube.com/watch?v=8Op0Glp9Eoo
 Slides: https://slides.com/real-or-random/taproot-and-schnorr-multisig
 Transcript of the previous day’s Socratic Seminar on BIP-Schnorr: https://diyhpl.us/wiki/transcripts/london-bitcoin-devs/2020-06-16-socratic-seminar-bip-schnorr/
