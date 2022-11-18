@@ -7,12 +7,13 @@ Aaron van Wirdum on “There are now two Taproot activation clients, here’s wh
 Transcript by: Michael Folkson
 Intro Aaron van Wirdum (AvW): Live from Utrecht this is the van Wirdum Sjorsnado.
 Sjors Provoost (SP): Hello
-AvW: Sjors, today we have a “lot” more to discuss.</description></item><item><title>Taproot Activation with Speedy Trial</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/bitcoin-magazine/2021-03-12-taproot-activation-speedy-trial/</link><pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/bitcoin-magazine/2021-03-12-taproot-activation-speedy-trial/</guid><description>Taproot Activation with Speedy Trial Location: Bitcoin Magazine (online)
+AvW: Sjors, today we have a “lot” more to discuss.</description></item><item><title>Taproot Activation with Speedy Trial</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/bitcoin-magazine/2021-03-12-taproot-activation-speedy-trial/</link><pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/bitcoin-magazine/2021-03-12-taproot-activation-speedy-trial/</guid><description>Location: Bitcoin Magazine (online)
 Video: https://www.youtube.com/watch?v=oCPrjaw3YVI
 Speedy Trial proposal: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-March/018583.html
 Transcript by: Michael Folkson
 Intro Aaron van Wirdum (AvW): Live from Utrecht this is the van Wirdum Sjorsnado. Sjors, what is your pun of the week?
-Sjors Provoost (SP): I actually asked you for a pun and then you said “Cut, re-edit. We are going to do it again.” I don’t have a pun this week.</description></item><item><title>Taproot activation and LOT=true vs LOT=false</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/bitcoin-magazine/2021-02-26-taproot-activation-lockinontimeout/</link><pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/bitcoin-magazine/2021-02-26-taproot-activation-lockinontimeout/</guid><description>Location: Bitcoin Magazine (online)
+Sjors Provoost (SP): I actually asked you for a pun and then you said “Cut, re-edit. We are going to do it again.” I don’t have a pun this week.
+AvW: Puns are your thing.</description></item><item><title>Taproot activation and LOT=true vs LOT=false</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/bitcoin-magazine/2021-02-26-taproot-activation-lockinontimeout/</link><pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/bitcoin-magazine/2021-02-26-taproot-activation-lockinontimeout/</guid><description>Location: Bitcoin Magazine (online)
 Video: https://www.youtube.com/watch?v=7ouVGgE75zg
 BIP 8: https://github.com/bitcoin/bips/blob/master/bip-0008.mediawiki
 Arguments for LOT=true and LOT=false (T1-T6 and F1-F6): https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-February/018380.html

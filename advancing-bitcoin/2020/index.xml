@@ -4,11 +4,12 @@ Video: No video was posted online
 Fabian presentation at Bitcoin Edge Dev++ 2019: https://diyhpl.us/wiki/transcripts/scalingbitcoin/tel-aviv-2019/edgedevplusplus/debugging-bitcoin/
 Debugging Bitcoin Core doc: https://github.com/fjahr/debugging_bitcoin
 Debugging Bitcoin Core Workshop: https://gist.github.com/fjahr/5bf65daaf9ff189a0993196195005386
-Introduction First of all welcome to the debugging Bitcoin Core workshop. Everything I know more or less about using a debugger to learn from Bitcoin Core and to fix problems in Bitcoin Core. I didn’t go with traditional slides because I want to teach you how to use this tool, the debugger, in the context of Bitcoin Core.</description></item><item><title>Miniscript</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-07-andrew-poelstra-miniscript/</link><pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-07-andrew-poelstra-miniscript/</guid><description>Advancing Bitcoin workshop
+Introduction First of all welcome to the debugging Bitcoin Core workshop. Everything I know more or less about using a debugger to learn from Bitcoin Core and to fix problems in Bitcoin Core. I didn’t go with traditional slides because I want to teach you how to use this tool, the debugger, in the context of Bitcoin Core.</description></item><item><title>Miniscript</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-07-andrew-poelstra-miniscript/</link><pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-07-andrew-poelstra-miniscript/</guid><description>Andrew Poelstra
+Advancing Bitcoin workshop
 Miniscript
 Website: https://bitcoin.sipa.be/miniscript/
 Workshop repo: https://github.com/apoelstra/miniscript-workshop
-Transcript of London Bitcoin Devs Miniscript presentation: https://btctranscripts.com/london-bitcoin-devs/2020-02-04-andrew-poelstra-miniscript/
+Transcript of London Bitcoin Devs Miniscript presentation: https://diyhpl.us/wiki/transcripts/london-bitcoin-devs/2020-02-04-andrew-poelstra-miniscript/
 Part 1 So what we’re going to do, there is a couple of things. We are going to go through the Miniscript website and learn about how Miniscript is constructed, how the type system works, some of the anti-malleability rules. Then we’re going to go to a repo that I created last night, a Git repo with some example programs.</description></item><item><title>Signet Workshop</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-07-kalle-alm-signet-workshop/</link><pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-07-kalle-alm-signet-workshop/</guid><description>Topic: Signet Workshop
 Location: Advancing Bitcoin
 Video: No video posted online
@@ -26,6 +27,7 @@ Slides: https://www.dropbox.com/s/vgh5vaooqqbgg1v/andrew-poelstra.pdf
 Intro Hi everyone. Some of you were at my Bitcoin dev presentation about Miniscript a couple of days where I managed to spend over 2 hours giving a presentation about this. I think I got this one down to 20 minutes but no promises. I will keep an eye on the clock.
 Descriptors It is very nice having this scheduled immediately after Andrew Chow’s talk about output descriptors because there is a good transition here.</description></item><item><title>Signet Integration</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-06-kalle-alm-signet-integration/</link><pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-06-kalle-alm-signet-integration/</guid><description>Topic: Signet Integration
 Location: Advancing Bitcoin
+Date: February 6th 2020
 Video (paid access): https://www.advancingbitcoin.com/video/signet-in-practice-integrating-signet-into-your-software,5/
 Slides: https://www.dropbox.com/s/6fqwhx7ugr3ppsg/Signet%20Integration%20V2.pdf
 BIP 325: https://github.com/bitcoin/bips/blob/master/bip-0325.mediawiki
@@ -33,9 +35,11 @@ Signet on Bitcoin Wiki: https://en.bitcoin.it/wiki/Signet
 Bitcoin dev mailing list: https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-March/016734.html
 Bitcoin Core PR 16411 (closed): https://github.com/bitcoin/bitcoin/pull/16411
 Bitcoin Core PR 18267 (open): https://github.com/bitcoin/bitcoin/pull/18267
-Intro I am going to talk about Signet. Do you guys know what Signet is? A few people know. I will explain it briefly. I have an elevator pitch, I have three actually depending on the height of the elevator.</description></item><item><title>Taproot Lightning</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-06-antoine-riard-taproot-lightning/</link><pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-06-antoine-riard-taproot-lightning/</guid><description>Topic: A Schnorr-Taproot’ed Lightning
+Intro I am going to talk about Signet. Do you guys know what Signet is? A few people know. I will explain it briefly. I have an elevator pitch, I have three actually depending on the height of the elevator.</description></item><item><title>Taproot Lightning</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-06-antoine-riard-taproot-lightning/</link><pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/advancing-bitcoin/2020/2020-02-06-antoine-riard-taproot-lightning/</guid><description>Name: Antoine Riard
+Topic: A Schnorr-Taproot’ed Lightning
 Location: Advancing Bitcoin
-Video: https://www.advancingbitcoin.com/video/a-schnorr-taprooted-lightning,11/
+Date: February 6th 2020
+Video (paid access): https://www.advancingbitcoin.com/video/a-schnorr-taprooted-lightning,11/
 Slides: https://www.dropbox.com/s/9vs54e9bqf317u0/Schnorr-Taproot%27ed-LN.pdf
 Intro Today Schnorr and Taproot for Lightning, it is a really exciting topic.
-Lightning architecture The Lightning architecture for those who are not familiar with it. You have the blockchain as the underlying layer. On top of it you are going to build a channel, you have a HTLC and people are going to spend onions to you. If you want to be paid you are going to send an invoice to the sender.</description></item></channel></rss>
+Lightning architecture The Lightning architecture for those who are not familiar with it. You have the blockchain as the underlying layer. On top of it you are going to build a channel, you have a HTLC and people are going to spend onions to you.</description></item></channel></rss>

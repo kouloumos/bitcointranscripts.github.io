@@ -2,9 +2,4 @@
 Nicolas Gailly
 Introduction Handle is a aggregation protocol for large scale byzantine committees. This is work with my colleagues in addition to myself.
 Why aggregate? Distributed systems often require gathering statements about large subsets of nodes. However, processing (filtering, aggregating&amp;hellip;) measurements can be a bottleneck. We want to apply some processing while collecting the measurements.
-Why byzantine? A byzantine node is a node that can be arbitrary.</description></item><item><title>Omniledger</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/scalingbitcoin/tokyo-2018/omniledger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/scalingbitcoin/tokyo-2018/omniledger/</guid><description>Omniledger: A secure, scale-out, decentralized ledger via sharding
-Eleftherios Kokoris-Kogias, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Ewa Syta and Bryan Ford (Ecole Polytechnique Fédérale de Lausanne)
-(LefKok)
-paper: https://eprint.iacr.org/2017/406.pdf
-https://twitter.com/kanzure/status/1048733316839432192
-Introduction I am Lefteris. I am a 4th year PhD student. I am here to talk about omniledger. It&amp;rsquo;s our architecture for a blockchain. It&amp;rsquo;s not directly related to bitcoin because it&amp;rsquo;s a different architecture. To begin, I would like to acknowledge my coauthors who collaborated on this project.</description></item></channel></rss>
+Why byzantine? A byzantine node is a node that can be arbitrary.</description></item></channel></rss>
