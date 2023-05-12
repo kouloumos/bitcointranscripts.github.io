@@ -1,52 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lightning Specification on ₿itcoin Transcripts</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/</link><description>Recent content in Lightning Specification on ₿itcoin Transcripts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/index.xml" rel="self" type="application/rss+xml"/><item><title>Lightning specification call</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2022-03-14-specification-call/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2022-03-14-specification-call/</guid><description>Name: Lightning specification call
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lightning Specification on ₿itcoin Transcripts</title><link>https://btctranscripts.com/lightning-specification/</link><description>Recent content in Lightning Specification on ₿itcoin Transcripts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://btctranscripts.com/lightning-specification/index.xml" rel="self" type="application/rss+xml"/><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2023-03-27-specification-call/</link><pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2023-03-27-specification-call/</guid><description>Name: Lightning specification call
+Topic: Agenda below
+Location: Jitsi
+Video: No video posted online
+Agenda: https://github.com/lightning/bolts/issues/1060</description></item><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2023-03-13-specification-call/</link><pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2023-03-13-specification-call/</guid><description>Name: Lightning specification call
+Topic: Agenda below
+Location: Jitsi
+Video: No video posted online
+Agenda: https://github.com/lightning/bolts/issues/1058</description></item><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2023-02-13-specification-call/</link><pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2023-02-13-specification-call/</guid><description>Name: Lightning specification call
+Topic: Agenda below
+Location: Jitsi
+Video: No video posted online
+Agenda: https://github.com/lightning/bolts/issues/1055
+Speaker 0: A few people won&amp;rsquo;t be able to attend. I guess we can proceed. Okay. I&amp;rsquo;m going to go down the list that you prepared for this. The first thing being dual funding. I don&amp;rsquo;t know if we have any one involved here at this point.
+Speaker 1: All right.
+Speaker 0: Last time, both of them were moving closer towards interop.</description></item><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2023-01-30-specification-call/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2023-01-30-specification-call/</guid><description>Name: Lightning specification call
+Topic: Agenda below
+Location: Jitsi
+Video: No video posted online
+Agenda: https://github.com/lightning/bolts/issues/1053
+The conversation has been anonymized by default to protect the identities of the participants. Participants that wish to be attributed are welcome to propose changes to the transcript.
+Channel Pruning Speaker 2: To be honest, I don&amp;rsquo;t think anything has made a lot of progress since the last spec meeting, so I don&amp;rsquo;t think we should do the topics in order.</description></item><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2022-03-14-specification-call/</link><pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2022-03-14-specification-call/</guid><description>Name: Lightning specification call
 Topic: Agenda below
 Location: Jitsi
 Video: No video posted online
 Agenda: https://github.com/lightning/bolts/issues/969
 BOLT 4: Remove legacy format, make var_onion_optin compulsory https://github.com/lightning/bolts/pull/962
 I think eclair and c-lightning have both removed support for legacy payments.
-I’ll probably make a PR to add the feature bit or at least flip it to required. The only wallet I can think of that is somewhat more fringe now is Simple Bitcoin Wallet.</description></item><item><title>Lightning specification call</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2022-02-14-specification-call/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2022-02-14-specification-call/</guid><description>Name: Lightning specification call
+I’ll probably make a PR to add the feature bit or at least flip it to required. The only wallet I can think of that is somewhat more fringe now is Simple Bitcoin Wallet.</description></item><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2022-02-14-specification-call/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2022-02-14-specification-call/</guid><description>Name: Lightning specification call
 Topic: Agenda below
 Location: Jitsi
 Video: No video posted online
 Agenda: https://github.com/lightning/bolts/issues/957
 Organizing a Lightning Core Dev meetup I was talking about organizing a face to face Lightning Core Dev meetup. If I understand correctly there has only been one formal one and that was in 2019 in Australia. There has been two?
 Milan, the kickoff. There has only ever been two.
-That was probably before my time in Bitcoin.</description></item><item><title>Lightning specification call</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2022-01-31-specification-call/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2022-01-31-specification-call/</guid><description>Name: Lightning specification call
+That was probably before my time in Bitcoin.</description></item><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2022-01-31-specification-call/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2022-01-31-specification-call/</guid><description>Name: Lightning specification call
 Topic: Agenda below
 Location: Jitsi
 Video: No video posted online
 Agenda: https://github.com/lightning/bolts/issues/955
-Bitcoin Core funding a transaction without looking at ancestors I have something that I wanted to ask of our implementers who implemented a wallet. It is tangentially related to Lightning especially for anchor outputs. I realized recently that when you ask Bitcoin Core to fund a transaction at a given fee rate it is not going to look at the ancestors and it is not going to take the ancestor’s fee rate into account.</description></item><item><title>Lightning specification call</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2022-01-03-specification-call/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2022-01-03-specification-call/</guid><description>Name: Lightning specification call
+Bitcoin Core funding a transaction without looking at ancestors I have something that I wanted to ask of our implementers who implemented a wallet. It is tangentially related to Lightning especially for anchor outputs. I realized recently that when you ask Bitcoin Core to fund a transaction at a given fee rate it is not going to look at the ancestors and it is not going to take the ancestor’s fee rate into account.</description></item><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2022-01-03-specification-call/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2022-01-03-specification-call/</guid><description>Name: Lightning specification call
 Topic: Agenda below
 Location: Jitsi
 Video: No video posted online
 Agenda: https://github.com/lightning/bolts/issues/949
 Introduction When people put comments and they are fixed they should mark them as resolved so that we don’t waste time thinking there are lots of outstanding comments and we have to read them again. I think that helps a lot.
 I can spend some time doing that.
-There are a lot of comments, I’m starting at the bottom to see the things that have maybe not been addressed yet.</description></item><item><title>Lightning specification call</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2021-12-06-specification-call/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2021-12-06-specification-call/</guid><description>Name: Lightning specification call
+There are a lot of comments, I’m starting at the bottom to see the things that have maybe not been addressed yet.</description></item><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2021-12-06-specification-call/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2021-12-06-specification-call/</guid><description>Name: Lightning specification call
 Topic: Agenda below
 Location: Google Meet
 Video: No video posted online
 Agenda: https://github.com/lightning/bolts/issues/943
 The conversation has been anonymized by default to protect the identities of the participants. Those who have given permission for their comments to be attributed are attributed. If you were a participant and would like your comments to be attributed please get in touch.
 Add payment metadata to payment request https://github.com/lightning/bolts/pull/912
-In theory you could have an invoice that is so large that it forces you to use a direct payment.</description></item><item><title>Lightning specification call</title><link>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2021-11-22-specification-call/</link><pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2021-11-22-specification-call/</guid><description>Name: Lightning specification call
+In theory you could have an invoice that is so large that it forces you to use a direct payment.</description></item><item><title>Lightning specification call</title><link>https://btctranscripts.com/lightning-specification/2021-11-22-specification-call/</link><pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate><guid>https://btctranscripts.com/lightning-specification/2021-11-22-specification-call/</guid><description>Name: Lightning specification call
 Topic: Agenda below
 Location: Google Meet
 Video: No video posted online
 Agenda: https://github.com/lightning/bolts/issues/936
 The conversation has been anonymized by default to protect the identities of the participants. Those who have given permission for their comments to be attributed are attributed. If you were a participant and would like your comments to be attributed please get in touch.
 BOLT 7 onion message support https://github.com/lightning/bolts/pull/759
-So PR 759 is built on PR 765 because we used the route blinding to decrypt where the end is going to go.</description></item><item><title/><link>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2023-01-30-specification-call/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2023-01-30-specification-call/</guid><description>title: Lightning specification call transcript_by: Generated categories: [&amp;lsquo;meeting&amp;rsquo;] tags: [&amp;rsquo;lightning&amp;rsquo;] date: 2023-01-30 Name: Lightning specification call
-Topic: Agenda below
-Location: Jitsi
-Video: No video posted online
-Agenda: https://github.com/lightning/bolts/issues/1053
-The conversation has been anonymized by default to protect the identities of the participants. Participants that wish to be attributed are welcome to propose changes to the transcript.
-Channel Pruning Speaker 2: To be honest, I don&amp;rsquo;t think anything has made a lot of progress since the last spec meeting, so I don&amp;rsquo;t think we should do the topics in order.</description></item><item><title/><link>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2023-02-13-specification-call/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.kouloumos.com/bitcointranscripts.github.io/lightning-specification/2023-02-13-specification-call/</guid><description>title: Lightning specification call transcript_by: Generated, Human-Verified by Carla Kirk-Cohen categories: [&amp;lsquo;meeting&amp;rsquo;] tags: [&amp;rsquo;lightning&amp;rsquo;] date: 2023-02-13 Name: Lightning specification call
-Topic: Agenda below
-Location: Jitsi
-Video: No video posted online
-Agenda: https://github.com/lightning/bolts/issues/1055
-Speaker 0: A few people won&amp;rsquo;t be able to attend. I guess we can proceed. Okay. I&amp;rsquo;m going to go down the list that you prepared for this. The first thing being dual funding. I don&amp;rsquo;t know if we have any one involved here at this point.</description></item></channel></rss>
+So PR 759 is built on PR 765 because we used the route blinding to decrypt where the end is going to go.</description></item></channel></rss>
