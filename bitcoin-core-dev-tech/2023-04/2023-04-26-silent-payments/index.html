@@ -26,9 +26,9 @@ Q: Why no P2PK"><script async src=https://visits.bitcoindevs.xyz/script.js data-
 </a>&lt; <a href=/bitcointranscripts.github.io/tabconf/>TABConf
 </a>&lt; <a href=/bitcointranscripts.github.io/london-bitcoin-devs/>London Bitcoin Devs
 </a>&lt; <a href=/bitcointranscripts.github.io/misc/>Misc
+</a>&lt; <a href=/bitcointranscripts.github.io/chaincode-labs/>Chaincode Labs
 </a>&lt; <a href=/bitcointranscripts.github.io/mit-bitcoin-expo/>MIT Bitcoin Expo
 </a>&lt; <a href=/bitcointranscripts.github.io/greg-maxwell/>Greg Maxwell
-</a>&lt; <a href=/bitcointranscripts.github.io/chaincode-labs/>Chaincode Labs
 </a>&lt; <a href=/bitcointranscripts.github.io/sydney-bitcoin-meetup/>Sydney Bitcoin Meetup
 </a>&lt; <a href=/bitcointranscripts.github.io/bitcoinology/>Bitcoinology
 </a>&lt; <a href=/bitcointranscripts.github.io/c-lightning/>c-lightning
@@ -80,9 +80,9 @@ Q: Why no P2PK"><script async src=https://visits.bitcoindevs.xyz/script.js data-
 </a>&lt; <a href=/bitcointranscripts.github.io/rebooting-web-of-trust/>Rebooting Web Of Trust
 </a>&lt; <a href=/bitcointranscripts.github.io/texas-bitcoin-conference-2014/>Texas Bitcoin Conference
 </a>&lt; Silent Payments<h1>Silent Payments</h1><p>Speakers:
-<a href=/speakers/josibake>Josibake</a>, <a href=/speakers/ruben-somsen>Ruben Somsen</a></p><p><i>Date: April 25, 2023</i></p><p><i>Transcript By:</i></p><p>Tags:
-<a href=/tags/bitcoin-core>Bitcoin core</a>, <a href=/tags/silent-payments>Silent payments</a></p><p>Category:
-<a href=/categories/core-dev-tech>Core dev tech</a></p><h2 id=bip-overview>BIP Overview</h2><p>Scanning key and spending key are different: better security.
+<a href=/bitcointranscripts.github.io/speakers/josibake>Josibake</a>, <a href=/bitcointranscripts.github.io/speakers/ruben-somsen>Ruben Somsen</a></p><p><i>Date: April 25, 2023</i></p><p><i>Transcript By:</i></p><p>Tags:
+<a href=/bitcointranscripts.github.io/tags/bitcoin-core>Bitcoin core</a>, <a href=/bitcointranscripts.github.io/tags/silent-payments>Silent payments</a></p><p>Category:
+<a href=/bitcointranscripts.github.io/categories/core-dev-tech>Core dev tech</a></p><h2 id=bip-overview>BIP Overview</h2><p>Scanning key and spending key are different: better security.
 Silent payment transactions are indistinguishable from transactions with taproot outputs on-chain.</p><p>Q: Address labeling, why not create two silent payment addresses?</p><p>A: It doubles scanning costs.</p><p>Limited to taproot UTXOs (currently about 3% of transactions) but when it increases we should find ways to optimize scanning, even though it currently does not seem to be an issue.</p><p>Q: Why no P2PK</p><p>A: Limit to most used payment types to keep the implementation simple? No strong opinion.</p><p>Q: Do you need txindex?</p><p>A: No. It uses undo data to get the prevouts</p><p>Q: Can you prune data?</p><p>A: Yes, but can only rescan wallet history from unpruned blocks. It should be possible to recover from the UTXO set on a pruned node</p><h2 id=address-encoding>Address encoding</h2><p>prefix: sp for mainnet and tsp: testnet
 &lsquo;q&rsquo; char: silent payment v0
 64 bytes concat of recipient pubkey Bm || Bscan</p><h2 id=public-keys>Public Keys</h2><p>Instead of using a single public key, use all the input public keys that were signed for

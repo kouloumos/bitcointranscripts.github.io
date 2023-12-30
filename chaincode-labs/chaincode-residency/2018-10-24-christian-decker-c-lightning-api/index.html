@@ -17,11 +17,11 @@ Goals First of all the goals of c-lightning are basically to be fast and lightwe
 </a>&lt; <a href=/bitcointranscripts.github.io/tabconf/>TABConf
 </a>&lt; <a href=/bitcointranscripts.github.io/london-bitcoin-devs/>London Bitcoin Devs
 </a>&lt; <a href=/bitcointranscripts.github.io/misc/>Misc
-</a>&lt; <a href=/bitcointranscripts.github.io/mit-bitcoin-expo/>MIT Bitcoin Expo
-</a>&lt; <a href=/bitcointranscripts.github.io/greg-maxwell/>Greg Maxwell
 </a>&lt; <a href=/bitcointranscripts.github.io/chaincode-labs/>Chaincode Labs
 </a>&lt; <a href=/bitcointranscripts.github.io/chaincode-labs/chaincode-podcast/>Chaincode Podcast
 </a>&lt; <a href=/bitcointranscripts.github.io/chaincode-labs/chaincode-residency/>Chaincode Residency
+</a>&lt; <a href=/bitcointranscripts.github.io/mit-bitcoin-expo/>MIT Bitcoin Expo
+</a>&lt; <a href=/bitcointranscripts.github.io/greg-maxwell/>Greg Maxwell
 </a>&lt; <a href=/bitcointranscripts.github.io/sydney-bitcoin-meetup/>Sydney Bitcoin Meetup
 </a>&lt; <a href=/bitcointranscripts.github.io/bitcoinology/>Bitcoinology
 </a>&lt; <a href=/bitcointranscripts.github.io/c-lightning/>c-lightning
@@ -73,9 +73,9 @@ Goals First of all the goals of c-lightning are basically to be fast and lightwe
 </a>&lt; <a href=/bitcointranscripts.github.io/rebooting-web-of-trust/>Rebooting Web Of Trust
 </a>&lt; <a href=/bitcointranscripts.github.io/texas-bitcoin-conference-2014/>Texas Bitcoin Conference
 </a>&lt; C-Lightning API<h1>C-Lightning API</h1><p>Speakers:
-<a href=/speakers/christian-decker>Christian Decker</a></p><p><i>Date: October 24, 2018</i></p><p><i>Transcript By: Michael Folkson</i></p><p>Tags:
-<a href=/tags/lightning>Lightning</a>, <a href=/tags/c-lightning>C lightning</a></p><p>Category:
-<a href=/categories/residency>Residency</a></p><p>Media:
+<a href=/bitcointranscripts.github.io/speakers/christian-decker>Christian Decker</a></p><p><i>Date: October 24, 2018</i></p><p><i>Transcript By: Michael Folkson</i></p><p>Tags:
+<a href=/bitcointranscripts.github.io/tags/lightning>Lightning</a>, <a href=/bitcointranscripts.github.io/tags/c-lightning>C lightning</a></p><p>Category:
+<a href=/bitcointranscripts.github.io/categories/residency>Residency</a></p><p>Media:
 <a href='https://www.youtube.com/watch?v=l8OLD7or0DA'>https://www.youtube.com/watch?v=l8OLD7or0DA</a></p><p>Location: Chaincode Labs Lightning Residency 2018</p><p><a href=https://twitter.com/kanzure/status/1232313790311436290>https://twitter.com/kanzure/status/1232313790311436290</a></p><h1 id=intro>Intro</h1><p>Good morning from the last day of presentations. I’m Chris still. Today I will be talking to you about c-lightning, how to develop on it, how to extend it, adapt it to your needs and how to customize it so it fits into whatever you are trying to do. Not whatever we thought you might want to do.</p><h1 id=goals>Goals</h1><p>First of all the goals of c-lightning are basically to be fast and lightweight. We want you to be able to deploy this on Raspberry Pis, on big beefy server machines, on your laptops, wherever you sort of have a stable connection. There you give the best utility to the rest of the network. We want c-lightning to be flexible and customizable because we don’t think that we will guess the exact configuration that you will need. We want to give you the tools to adapt it to your own needs. We want to optimize for power users. There’s plenty of options for Lightning nodes to run on home devices, on mobile phones. While we can do that we will know how to optimize for that. We want to be the server backend running big services on top of this.</p><h1 id=tldr-i-want-my-node-now>TL;DR I want my node now</h1><p>After this slide you can probably stop listening because that is all you need to know. We provide a PPA for Ubuntu and Debian based systems. All you need to do is just add the repository <code>lightningnetwork</code>, do an <code>apt-get update</code> and install <code>lightningd</code>.</p><pre tabindex=0><code>sudo add-apt-repository ppa:lightningnetwork/ppa
 sudo apt-get update
 sudo apt-get install lightningd
